@@ -44,7 +44,7 @@
                     num1 = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine($"Результат: {Add(num1, num1)}");
                     break;
-                case "8":
+                case "2":
                     Console.Write("Введите первое число: ");
                     num1 = Convert.ToDouble(Console.ReadLine());
                     Console.Write("Введите второе число: ");
@@ -58,7 +58,7 @@
                     num2 = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine($"Результат: {Multiply(num1, num2)}");
                     break;
-                case "10":
+                case "4":
                     Console.Write("Введите первое число: ");
                     num1 = Convert.ToDouble(Console.ReadLine());
                     Console.Write("Введите второе число: ");
@@ -73,7 +73,7 @@
                     num3 = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine($"Результат: {Power(num1, num3)}");
                     break;
-                case "0":
+                case "6":
                     Console.Write("Введите число: ");
                     num1 = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine($"Результат: {Sqrt(num1)}");
